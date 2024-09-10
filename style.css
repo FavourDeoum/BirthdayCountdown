@@ -1,0 +1,86 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+.shape{
+    position: absolute;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    background-color: pink;
+    right: 55rem;
+    top: 15rem;
+    pop
+}
+
+.shapes{
+    position: absolute;
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    background-color: #F3B000;
+    right: 70rem;
+    bottom: 17rem;
+    animation: spin-pop 2s ease-out forwards;
+    animation: rotate 5s ease-in-out infinite;
+    animation-delay: 3s;
+    transition: all 0.5s ease;
+}
+@keyframes spin-pop {
+    0%{
+        transform: scale(0.1) rotate(0deg);
+    }
+    50%{
+        transform: scale(0.5) rotate(180deg);
+    }
+    80%{
+        transform: scale(0.2) rotate(360deg);
+    }
+    100%{
+        transform: scale(1) rotate(360deg);
+    }
+}
+
+.shapess{
+    position: absolute;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: #0045E1;
+    right: 60rem;
+    bottom: 28rem;
+}
+
+.shapesss{
+    position: absolute;
+    border-radius: 50%;
+    width: 70px;
+    height: 70px;
+    background-color: #047616;
+    right: 70rem;
+    bottom: 30rem;
+}
+
+.shapessss{
+    position: absolute;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color:#F54400;
+    right: 65rem;
+    top: 26rem;
+}
+
+.container{
+    text-align: center;
+}
+
+h1{
+    font-size: 3em;
+    color: palegreen;
+}
